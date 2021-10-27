@@ -21,17 +21,17 @@
             </div>
             <div class="widget">
                 <h3>Widget 02</h3>
-                <iframe width="300vw" 
+                <iframe width="95%" 
                         height="auto" 
                         src="https://www.youtube.com/embed/WeYqJxlSv-Y" 
                         title="YouTube video player" 
-                        frameborder="0" 
+                        frameborder="2" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen></iframe>
             </div>
             <div class="widget">
                 <h3>Widget 03</h3>
-                <div class="gcse-search"></div>
+
             </div>
 
         </div>
@@ -39,15 +39,7 @@
 </body>
 
 <script>
-    /* functions */
 
-    g_results(){
-        var searchString = $("#g_search");
-
-
-    }
-
-    /* main code */
     var sp="/";
     today = new Date();
     var dd = today.getDate();
@@ -59,7 +51,6 @@
 
     $("#date").html(mm+sp+dd+sp+yyyy);
 
-    $("#g_button").click(g_results);
 </script>
 </html>
 
